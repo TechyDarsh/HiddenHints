@@ -8,7 +8,8 @@ import {
   HiOutlineChartBar,
   HiOutlineArrowRightOnRectangle,
   HiOutlineClock,
-  HiOutlineXMark
+  HiOutlineXMark,
+  HiOutlineUsers
 } from 'react-icons/hi2';
 
 const navItems = [
@@ -18,6 +19,7 @@ const navItems = [
   { to: '/scanner', icon: HiOutlineQrCode, label: 'Scanner', adminOnly: false },
   { to: '/history', icon: HiOutlineClock, label: 'Scan History', adminOnly: false },
   { to: '/analytics', icon: HiOutlineChartBar, label: 'Analytics', adminOnly: true },
+  { to: '/users', icon: HiOutlineUsers, label: 'User Management', adminOnly: true },
 ];
 
 const Sidebar = ({ isOpen, onClose }) => {

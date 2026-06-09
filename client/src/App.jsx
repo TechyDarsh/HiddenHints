@@ -7,6 +7,7 @@ import ProductFormPage from './pages/ProductFormPage';
 import ScannerPage from './pages/ScannerPage';
 import HistoryPage from './pages/HistoryPage';
 import AnalyticsPage from './pages/AnalyticsPage';
+import UsersPage from './pages/UsersPage';
 
 import LandingPage from './pages/LandingPage';
 
@@ -28,6 +29,7 @@ function App() {
             <Route path="/scanner" element={<ScannerPage />} />
             <Route path="/history" element={<HistoryPage />} />
             <Route path="/analytics" element={<AnalyticsPage />} />
+            <Route path="/users" element={<UsersPage />} />
           </Route>
 
           {/* Default redirect */}

@@ -430,6 +430,11 @@ h3 { font-size: 1.25rem; }
   margin-top: 4px;
 }
 
+.input-error {
+  border-color: var(--danger-400) !important;
+  box-shadow: 0 0 0 2px rgba(244, 63, 94, 0.15) !important;
+}
+
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
